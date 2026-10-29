@@ -1,0 +1,33 @@
+{
+  "lighting": "diffuse",
+  "occlusion": 0.0,
+  "surface": "PLA_Black",
+  "augmentations": "motionblur21",
+  "camera_settings": {
+    "exposure": 90000,
+    "gain": 16,
+    "approx_distance_mm": 340.0,
+    "depth_scale": 0.0001,
+    "intrinsics": {
+      "fx": 394.33978271484375,
+      "fy": 393.29229736328125,
+      "ppx": 317.5072937011719,
+      "ppy": 234.90237426757812,
+      "width": 640,
+      "height": 480,
+      "model": "distortion.inverse_brown_conrady",
+      "coeffs": [
+        -0.05268188938498497,
+        0.05452913045883179,
+        1.9111947040073574e-05,
+        0.000579275016207248,
+        -0.018142566084861755
+      ]
+    }
+  },
+  "environment": {
+    "background": "clean",
+    "holder_material": "PLA_Black"
+  },
+  "source_scene": "scene_000006"
+}
